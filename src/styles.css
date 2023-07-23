@@ -37,7 +37,7 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: black;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -57,10 +57,23 @@ header a {
   grid-gap: 64px;
 }
 
+.grid-2-columns {
+  grid-template-columns: auto auto;
+}
+
+.grid-3-column-with-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.img-size {
+  max-width: 100%;
+
+  border-radius: 20px;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 60px;
+  padding: 100px 0px;
 }
 
 header {
@@ -73,6 +86,43 @@ header {
   padding: 200px 0;
 }
 
+main {
+  background-color: black;
+}
+
+main h2 {
+  font-family: Poppins;
+  color: #5bd5e3;
+  font-size: 13px;
+  font-style: normal;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+main h3 {
+  font-family: Playfair Display;
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-family: Roboto;
+  color: #f9f4ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -82,7 +132,6 @@ footer {
     url("../images/adele_fot.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
 }
 
 footer h3 {
@@ -128,5 +177,12 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 32px;
   }
 }
