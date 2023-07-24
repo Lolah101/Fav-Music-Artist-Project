@@ -123,6 +123,11 @@ header a {
 .mb-5 {
   margin-bottom: 50px;
 }
+.video {
+  margin: 0 auto;
+  aspect-ratio: 21 / 9;
+  width: 100%;
+}
 
 section {
   max-width: 100%;
