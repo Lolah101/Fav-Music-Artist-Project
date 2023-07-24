@@ -2,6 +2,7 @@ body {
   font-family: Playfair Display;
   background: #272044;
 }
+
 header h1 {
   font-family: Playfair Display;
   font-size: 128px;
@@ -111,8 +112,16 @@ header a {
   border-radius: 20px;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 .card-footer {
   padding: 30px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
 }
 
 section {
